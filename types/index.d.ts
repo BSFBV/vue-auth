@@ -12,6 +12,7 @@ interface RequestOptions {
     params?: {};
     url?: string;
     method?: string;
+    auth?: {};
 }
 
 interface RedirectInterface {
